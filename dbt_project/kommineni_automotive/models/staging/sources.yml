@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze
+    description: "Raw data ingested from Kommineni Automotive source systems"
+    tables:
+      - name: locations
+        description: "5 Kommineni Automotive branch locations"
+      - name: employees
+        description: "All salespeople and service technicians across all branches"
+      - name: vehicles
+        description: "Vehicle inventory across all locations"
+      - name: sales_transactions
+        description: "Every car sale transaction"
+      - name: service_jobs
+        description: "Every service center job completed"
+        

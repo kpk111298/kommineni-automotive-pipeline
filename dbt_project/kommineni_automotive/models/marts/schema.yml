@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: daily_sales_by_location
+    description: "Daily revenue and units sold per location"
+    columns:
+      - name: sale_date
+        tests:
+          - not_null
+      - name: location_id
+        tests:
+          - not_null
+      - name: daily_revenue
+        tests:
+          - not_null
+
+  - name: salesperson_leaderboard
+    description: "Weekly performance ranking for all salespeople"
+    columns:
+      - name: employee_id
+        tests:
+          - not_null
+
+  - name: revenue_vs_target
+    description: "Monthly target tracking per location"
+    columns:
+      - name: location_id
+        tests:
+          - not_null
+          - unique
+
+  - name: inventory_status
+    description: "Vehicle inventory breakdown by location and make"
+
+  - name: service_center_utilization
+    description: "Weekly service technician performance"

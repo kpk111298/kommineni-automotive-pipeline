@@ -1,0 +1,36 @@
+employee_id,full_name,role,location_id,hire_date,commission_rate
+EMP001,Julie Thomas,salesperson,LOC001,2024-02-03,0.049
+EMP002,Kevin Avery,salesperson,LOC001,2023-02-27,0.049
+EMP003,Kathleen Jones PhD,salesperson,LOC001,2026-01-07,0.043
+EMP004,Heidi Johnson,salesperson,LOC001,2023-03-24,0.05
+EMP005,Sean Holder,service_technician,LOC001,2025-09-04,0.0
+EMP006,Amy Grant,service_technician,LOC001,2021-09-01,0.0
+EMP007,Ann Jones,service_technician,LOC001,2021-10-24,0.0
+EMP008,Margaret White,salesperson,LOC002,2023-01-19,0.029
+EMP009,Andrew Johnston,salesperson,LOC002,2023-10-07,0.023
+EMP010,Kimberly Miller,salesperson,LOC002,2026-01-19,0.022
+EMP011,Kimberly Hunter,salesperson,LOC002,2023-09-07,0.045
+EMP012,Ashlee Hill,service_technician,LOC002,2022-09-27,0.0
+EMP013,Jorge Weeks,service_technician,LOC002,2024-06-12,0.0
+EMP014,Paula Coffey,service_technician,LOC002,2025-06-13,0.0
+EMP015,Renee Shea,salesperson,LOC003,2024-05-17,0.029
+EMP016,Mary Duncan,salesperson,LOC003,2025-11-11,0.032
+EMP017,Jeffery Dunn,salesperson,LOC003,2026-01-17,0.035
+EMP018,Katrina Jordan,salesperson,LOC003,2022-12-10,0.048
+EMP019,Michelle Bowen,service_technician,LOC003,2022-04-18,0.0
+EMP020,Bianca Merritt,service_technician,LOC003,2025-04-03,0.0
+EMP021,Veronica Williams,service_technician,LOC003,2024-11-06,0.0
+EMP022,Michelle Wood,salesperson,LOC004,2022-05-26,0.046
+EMP023,Scott Anderson,salesperson,LOC004,2024-06-29,0.024
+EMP024,Lori Sanders,salesperson,LOC004,2025-04-14,0.044
+EMP025,Amanda Tyler,salesperson,LOC004,2024-09-02,0.04
+EMP026,Corey Lopez,service_technician,LOC004,2023-12-07,0.0
+EMP027,Anthony Armstrong,service_technician,LOC004,2022-04-25,0.0
+EMP028,Jennifer Martinez,service_technician,LOC004,2022-11-08,0.0
+EMP029,Kristen Jones,salesperson,LOC005,2022-09-18,0.021
+EMP030,Mr. Anthony Matthews III,salesperson,LOC005,2023-02-10,0.03
+EMP031,Patrick Clayton,salesperson,LOC005,2024-10-12,0.036
+EMP032,Matthew Combs,salesperson,LOC005,2024-01-05,0.026
+EMP033,Michael Thompson,service_technician,LOC005,2023-06-25,0.0
+EMP034,Kelli Whitaker,service_technician,LOC005,2023-09-15,0.0
+EMP035,Tyler Stafford,service_technician,LOC005,2022-04-28,0.0

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 560" width="500" height="560">
+  <defs>
+    <linearGradient id="darkBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F4E79;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D2B4E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E75B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A5490;stop-opacity:1" />
+    </linearGradient>
+    <clipPath id="leftHalf">
+      <rect x="0" y="0" width="250" height="560"/>
+    </clipPath>
+    <clipPath id="rightHalf">
+      <rect x="250" y="0" width="250" height="560"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="560" fill="#FAF7F4"/>
+
+  <!-- 
+    K LETTER - drawn as a proper serif K
+    Vertical stem + top diagonal arm + bottom diagonal arm
+    Positioned left-center, overlapping into right
+  -->
+
+  <!-- K - drawn in dark blue -->
+  <g fill="url(#darkBlue)">
+    <!-- Vertical stem of K - tall and bold -->
+    <rect x="110" y="100" width="52" height="260"/>
+
+    <!-- Top serif on K stem -->
+    <rect x="96" y="100" width="80" height="18"/>
+    <rect x="96" y="342" width="80" height="18"/>
+
+    <!-- K top arm - diagonal from mid-stem to top right -->
+    <!-- Uses a parallelogram shape for the arm -->
+    <polygon points="162,100 162,218 310,100 280,100"/>
+
+    <!-- K top arm fill triangle -->
+    <polygon points="162,218 310,100 310,138 162,238"/>
+
+    <!-- K bottom arm - diagonal from mid-stem to bottom right -->
+    <polygon points="162,242 162,360 310,360 162,242"/>
+
+    <!-- K bottom arm upper edge -->
+    <polygon points="162,242 310,318 310,360 162,262"/>
+
+    <!-- Bottom serif -->
+    <rect x="270" y="342" width="52" height="18"/>
+
+    <!-- Top right serif -->
+    <rect x="270" y="100" width="52" height="18"/>
+  </g>
+
+  <!--
+    P LETTER - drawn as proper serif P
+    Vertical stem + full rounded bowl on top right
+    Positioned overlapping K, slightly to the right
+  -->
+
+  <!-- P - drawn in light blue with slight transparency for overlap effect -->
+  <g fill="url(#lightBlue)" opacity="0.88">
+    <!-- Vertical stem of P -->
+    <rect x="200" y="100" width="52" height="260"/>
+
+    <!-- Top serif on P -->
+    <rect x="186" y="100" width="80" height="18"/>
+    <!-- Bottom serif on P -->
+    <rect x="186" y="342" width="80" height="18"/>
+
+    <!-- P bowl - top bar -->
+    <rect x="252" y="100" width="85" height="20"/>
+
+    <!-- P bowl - bottom bar (middle of letter) -->
+    <rect x="252" y="210" width="85" height="20"/>
+
+    <!-- P bowl - right curved side (approximated with ellipse) -->
+    <ellipse cx="337" cy="165" rx="28" ry="65" />
+
+    <!-- Fill gap between stem and bowl top -->
+    <rect x="252" y="118" width="20" height="94"/>
+  </g>
+
+  <!-- Overlap blend area - where K and P intersect, use a mid-tone -->
+  <rect x="200" y="100" width="52" height="260"
+        fill="#1A5C96" opacity="0.15"/>
+
+  <!-- Thin elegant divider -->
+  <line x1="110" y1="400" x2="390" y2="400"
+        stroke="#1F4E79" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- PRAMEEL K KOMMINENI -->
+  <text x="250" y="428"
+        font-family="'Georgia', 'Times New Roman', serif"
+        font-size="17"
+        font-weight="400"
+        text-anchor="middle"
+        fill="#1F4E79"
+        letter-spacing="6">PRAMEEL K KOMMINENI</text>
+
+  <!-- AUTOMOTIVE -->
+  <text x="250" y="458"
+        font-family="'Arial', 'Helvetica', sans-serif"
+        font-size="12.5"
+        font-weight="700"
+        text-anchor="middle"
+        fill="#2E75B6"
+        letter-spacing="10">AUTOMOTIVE</text>
+
+</svg>

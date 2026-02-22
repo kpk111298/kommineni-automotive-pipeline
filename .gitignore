@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# DuckDB database file
+
+
+# Environment variables (never upload secrets)
+.env
+
+# Mac system files
+.DS_Store
+
+# dbt target folder (generated files)
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/

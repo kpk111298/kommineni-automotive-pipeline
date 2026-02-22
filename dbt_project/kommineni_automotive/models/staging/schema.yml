@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: stg_employees
+    description: "Cleaned employees with titles removed and role standardized"
+    columns:
+      - name: employee_id
+        tests:
+          - not_null
+          - unique
+      - name: role
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['salesperson', 'service_technician']
+      - name: location_id
+        tests:
+          - not_null
+
+  - name: stg_sales_transactions
+    description: "Cleaned sales transactions with date parts extracted"
+    columns:
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+      - name: sale_price
+        tests:
+          - not_null
+      - name: location_id
+        tests:
+          - not_null
+
+  - name: stg_locations
+    description: "Cleaned branch locations"
+    columns:
+      - name: location_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_vehicles
+    description: "Cleaned vehicle inventory"
+    columns:
+      - name: vehicle_id
+        tests:
+          - not_null
+          - unique
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['available', 'sold', 'reserved']
+
+  - name: stg_service_jobs
+    description: "Cleaned service center jobs"
+    columns:
+      - name: job_id
+        tests:
+          - not_null
+          - unique
+      - name: actual_hours
+        tests:
+          - not_null
