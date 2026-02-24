@@ -8,7 +8,7 @@ A production-grade data engineering portfolio project simulating a 5-location au
 
 Raw transactional data flows through a full medallion architecture — bronze ingestion, silver cleaning, gold aggregation — and surfaces in a live executive dashboard with role-based access control.
 
-**Live Demo** → [View Dashboard](https://kpk111298-kommineni-automotive-pipeline.streamlit.app)
+**Live Demo** → [View Dashboard](https://kommineni-automotive.streamlit.app)
 
 Login credentials:
 - Executive: `exec001` / `exec001`
