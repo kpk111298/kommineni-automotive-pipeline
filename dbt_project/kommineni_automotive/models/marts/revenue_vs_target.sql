@@ -77,7 +77,7 @@ final AS (
             WHEN (revenue_to_date / monthly_target) * 100 >= 
                  (days_elapsed::FLOAT / days_in_month * 100)
             THEN 'On Track'
-            ELSE 'Behind Target'
+            ELSE 'Behind'
         END AS status
 
     FROM location_revenue
