@@ -1,31 +1,20 @@
-# ============================================================
-# Kommineni Automotive - Bronze Ingestion Layer
-# 
-# This script takes raw CSV files and loads them into DuckDB
-# as the bronze layer. Raw data lands here exactly as-is.
-# No cleaning, no transforming. Just load it as it came.
-# ============================================================
+#"""
+ingest_bronze.py
+Loads raw CSVs into DuckDB bronze layer.
+No transforms here - just raw data + audit metadata.
+"""
 
 import duckdb
 import pandas as pd
 import os
 from datetime import datetime
 
-# ============================================================
-# WHAT IS DUCKDB?
-# DuckDB is a local data warehouse that lives as a single file
-# on your computer. You talk to it using regular SQL.
-# Think of it like Snowflake but running on your laptop.
-# ============================================================
-
-# This is the path to our database file
-# It will be created automatically if it does not exist
 DB_PATH = "../kommineni_automotive.duckdb"
-
-# This is where our raw CSV files live
 RAW_DATA_PATH = "../data/raw"
 
 
+def get_connection():
+    """Connect to DuckDB, creates file if missing."""
 def get_connection():
     """Connect to DuckDB. Creates the file if it does not exist."""
     return duckdb.connect(DB_PATH)

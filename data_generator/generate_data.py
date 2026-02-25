@@ -1,7 +1,8 @@
-# ============================================================
-# Kommineni Automotive - Data Generator
-# This script generates realistic fake data for our dealership
-# ============================================================
+"""
+generate_data.py
+Generates synthetic dealership data for local dev/testing.
+Run this once to populate data/raw/ with CSVs.
+"""
 
 import random
 import os
@@ -9,13 +10,8 @@ from datetime import datetime, timedelta
 from faker import Faker
 import pandas as pd
 
-# Faker is our fake data generator
-# It creates realistic names, addresses, dates etc
 fake = Faker()
-
-# This is our random seed - it means every time we run this
-# script we get different data but in a realistic pattern
-random.seed(None)
+random.seed(None)  # different data each run
 
 # ============================================================
 # SECTION 1: LOCATIONS
