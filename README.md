@@ -1,12 +1,12 @@
 # Kommineni Automotive — Data Pipeline & Analytics Platform
 
-A production-grade data engineering portfolio project simulating a 5-location automotive dealership. Built to demonstrate real-world skills in data ingestion, transformation, warehousing, and analytics.
+A production grade data engineering portfolio project simulating a 5 location automotive dealership. Built to demonstrate real world skills in data ingestion, transformation, warehousing, and analytics.
 
 ---
 
 ## What This Project Does
 
-Raw transactional data flows through a full medallion architecture — bronze ingestion, silver cleaning, gold aggregation — and surfaces in a live executive dashboard with role-based access control.
+Raw transactional data flows through a full medallion architecture bronze ingestion, silver cleaning, gold aggregation and surfaces in a live executive dashboard with role based access control.
 
 **Live Demo** → [View Dashboard](https://kommineni-automotive.streamlit.app)
 
@@ -33,8 +33,8 @@ Business KPI aggregations
 Revenue vs target, leaderboard, inventory, service utilization
     ↓
 Streamlit Dashboard
-Role-based access: Executive, Branch Manager, Salesperson
-5 real-time filters: date range, location, make, sale type, salesperson
+Role based access: Executive, Branch Manager, Salesperson
+5 real time filters: date range, location, make, sale type, salesperson
 ```
 
 ---
@@ -45,7 +45,7 @@ Role-based access: Executive, Branch Manager, Salesperson
 |---|---|
 | Data Generation | Python, Faker |
 | Data Warehouse | DuckDB |
-| Transformations | dbt-core, dbt-duckdb |
+| Transformations | dbt core, dbt duckdb |
 | Dashboard | Streamlit, Plotly |
 | Deployment | Streamlit Cloud |
 | Version Control | Git, GitHub |
@@ -71,7 +71,7 @@ Role-based access: Executive, Branch Manager, Salesperson
 
 23 automated dbt tests covering:
 - Primary key uniqueness
-- Not-null constraints on critical fields
+- Not null constraints on critical fields
 - Accepted value validation
 - Referential integrity across tables
 
@@ -79,8 +79,8 @@ Role-based access: Executive, Branch Manager, Salesperson
 
 ## Dashboard Features
 
-- 3 role-based views with query-level RBAC filtering
-- Executive sees all 5 locations with company-wide KPIs
+- 3 role based views with query level RBAC filtering
+- Executive sees all 5 locations with company wide KPIs
 - Branch managers see their location, team, inventory, and service data
 - Salespeople see personal performance, commission, and company ranking
 - All views respond to 5 live filters applied at the SQL level
