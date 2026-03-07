@@ -29,6 +29,35 @@ st.markdown("""
 /* White background */
 .stApp {
     background: #FAFAFA !important;
+    color-scheme: light !important;
+}
+
+/* Force light mode - override phone dark mode */
+:root {
+    color-scheme: light !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .stApp, body, html {
+        background: #FAFAFA !important;
+        color: #1A1A1A !important;
+        color-scheme: light !important;
+    }
+    
+    input, select, textarea {
+        background: #FAFAFA !important;
+        color: #1A1A1A !important;
+    }
+
+    .stRadio label {
+        color: #666666 !important;
+        background: white !important;
+    }
+
+    [data-testid="stTextInput"] input {
+        background: #FAFAFA !important;
+        color: #1A1A1A !important;
+    }
 }
 
 /* Hide sidebar completely */
