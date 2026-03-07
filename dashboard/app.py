@@ -363,18 +363,20 @@ def build_where(f, a="s"):
 # ============================================================
 
 def show_login():
-    col1, col2, col3 = st.columns([1, 1, 1])
+    # center column
+    col1, col2, col3 = st.columns([1, 1.2, 1])
     with col2:
-        st.markdown("<div style='height:80px'></div>", unsafe_allow_html=True)
+        st.markdown("<div style='height:60px'></div>", unsafe_allow_html=True)
 
+        # brand
         st.markdown("""
-        <div style="text-align:center;margin-bottom:40px">
+        <div style="text-align:center;margin-bottom:32px">
             <p style="font-size:22px;font-weight:700;color:#1A1A1A;
                       letter-spacing:-0.5px;margin:0">
                 Kommineni Automotive
             </p>
             <div style="width:32px;height:2px;background:#B8860B;
-                        margin:12px auto"></div>
+                        margin:10px auto"></div>
             <p style="font-size:10px;color:#999;letter-spacing:2.5px;
                       text-transform:uppercase;margin:0;font-weight:600">
                 Performance Intelligence
@@ -382,18 +384,16 @@ def show_login():
         </div>
         """, unsafe_allow_html=True)
 
+        # sign in label
         st.markdown("""
-        <div style="background:white;border:1px solid #EBEBEB;
-                    border-radius:12px;padding:36px 32px;
-                    box-shadow:0 4px 40px rgba(0,0,0,0.06)">
-            <p style="font-size:16px;font-weight:600;
-                      color:#1A1A1A;margin:0 0 4px 0">Sign In</p>
-            <p style="font-size:12px;color:#999;margin:0 0 24px 0">
-                Enter your credentials to continue
-            </p>
-        </div>
+        <p style="font-size:16px;font-weight:600;color:#1A1A1A;
+                  margin:0 0 4px 0">Sign In</p>
+        <p style="font-size:12px;color:#999;margin:0 0 20px 0">
+            Enter your credentials to continue
+        </p>
         """, unsafe_allow_html=True)
 
+        # inputs and button — pure streamlit, no wrapping divs
         user_id = st.text_input(
             "User ID", placeholder="exec001 · mgr001 · EMP001"
         )
@@ -435,7 +435,6 @@ def show_login():
             </p>
         </div>
         """, unsafe_allow_html=True)
-
 # ============================================================
 # TOP NAV
 # ============================================================
