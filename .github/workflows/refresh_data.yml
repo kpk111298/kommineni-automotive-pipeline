@@ -1,0 +1,41 @@
+name: Daily Data Refresh
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # runs every day at 8am UTC
+  workflow_dispatch:       # lets you trigger it manually too
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate fresh data
+        run: python data_generator/generate_data.py
+
+      - name: Ingest to bronze
+        run: python ingestion/ingest_bronze.py
+
+      - name: Run dbt models
+        run: |
+          cd dbt_project/kommineni_automotive
+          dbt run
+
+      - name: Commit and push updated database
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kommineni_automotive.duckdb data/raw/
+          git diff --staged --quiet || git commit -m "chore: Auto refresh data $(date +%Y-%m-%d)"
+          git push

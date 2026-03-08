@@ -292,10 +292,10 @@ def main():
     vehicles = generate_vehicles()
 
     print("Generating sales transactions...")
-    sales = generate_sales(employees, vehicles)
+    sales = generate_sales(employees, vehicles, days_back=90)
 
     print("Generating service jobs...")
-    service_jobs = generate_service_jobs(employees, vehicles)
+    service_jobs = generate_service_jobs(employees, vehicles, days_back=90)
 
     # Save everything as CSV files
     locations.to_csv(f"{output_path}/locations.csv", index=False)
