@@ -1,0 +1,6 @@
+kommineni_automotive:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../../kommineni_automotive.duckdb
