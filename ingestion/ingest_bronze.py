@@ -69,8 +69,7 @@ def verify_bronze(conn):
             print(f"  bronze.{table}: ERROR - {e}")
 
     print("-" * 40)
-
-
+    
 def main():
     print("Kommineni Automotive - Bronze Ingestion Starting...")
     print(f"Database: {DB_PATH}")
@@ -102,4 +101,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+# refreshed
 # refreshed
