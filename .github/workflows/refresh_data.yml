@@ -24,7 +24,7 @@ jobs:
 
       - run: |
           cd dbt_project/kommineni_automotive
-          dbt run
+          dbt run --profiles-dir .
 
       - run: |
           git config user.name "github-actions[bot]"
