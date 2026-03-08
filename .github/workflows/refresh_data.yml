@@ -2,8 +2,8 @@ name: Daily Data Refresh
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # runs every day at 8am UTC
-  workflow_dispatch:       # lets you trigger it manually too
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 jobs:
   refresh:
@@ -19,7 +19,9 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install --upgrade pip
+          pip install faker==24.0.0 pandas==2.2.3 duckdb==1.2.0 dbt-core==1.10.0 dbt-duckdb==1.10.0
 
       - name: Generate fresh data
         run: python data_generator/generate_data.py
