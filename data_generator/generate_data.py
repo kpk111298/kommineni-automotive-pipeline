@@ -278,7 +278,7 @@ def main():
     print("Kommineni Automotive - Generating data...")
 
     # Create output folder if it does not exist
-    output_path = "../data/raw"
+    output_path = "data/raw"
     os.makedirs(output_path, exist_ok=True)
 
     # Generate all datasets
