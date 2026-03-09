@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 DB_PATH = "kommineni_automotive.duckdb"
-RAW_DATA_PATH = "../data/raw"
+RAW_DATA_PATH = "data/raw"
 
 
 def get_connection():

@@ -178,7 +178,7 @@ def generate_sales(employees_df, vehicles_df, days_back=30):
     ].copy()
 
     # Generate sales for each of the past 30 days
-    for day in range(days_back, 0, -1):
+    for day in range(days_back, -1, -1):
         sale_date = datetime.now() - timedelta(days=day)
 
         # Each day generates 3 to 8 sales across all locations
@@ -239,7 +239,7 @@ def generate_service_jobs(employees_df, vehicles_df, days_back=30):
         ("battery_replacement", 1.0, 220)
     ]
 
-    for day in range(days_back, 0, -1):
+    for day in range(days_back, -1, -1):
         job_date = datetime.now() - timedelta(days=day)
 
         # Each day generates 5 to 12 service jobs
