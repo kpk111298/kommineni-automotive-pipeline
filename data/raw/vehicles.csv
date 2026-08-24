@@ -1,101 +1,101 @@
 vehicle_id,make,model,year,list_price,status,location_id
-VEH0001,Chevrolet,Silverado,2022,43413,available,LOC001
-VEH0002,Toyota,RAV4,2025,36027,available,LOC001
-VEH0003,Ford,Explorer,2025,37903,reserved,LOC001
-VEH0004,Toyota,RAV4,2022,35608,available,LOC001
-VEH0005,Chevrolet,Silverado,2025,41211,available,LOC001
-VEH0006,Ford,F-150,2024,47150,available,LOC001
-VEH0007,Chevrolet,Silverado,2025,44046,available,LOC001
-VEH0008,BMW,X5,2022,75668,available,LOC001
-VEH0009,Ford,F-150,2022,47766,available,LOC001
-VEH0010,Ford,F-150,2024,46238,available,LOC001
-VEH0011,Ford,Explorer,2022,39346,available,LOC001
-VEH0012,Chevrolet,Equinox,2022,29669,available,LOC001
-VEH0013,Toyota,Camry,2022,29902,available,LOC001
-VEH0014,Ford,F-150,2025,43036,reserved,LOC001
-VEH0015,Honda,Civic,2024,28690,reserved,LOC001
-VEH0016,Toyota,RAV4,2025,37220,available,LOC001
-VEH0017,Chevrolet,Silverado,2022,43508,reserved,LOC001
-VEH0018,BMW,3 Series,2023,59365,available,LOC001
-VEH0019,BMW,3 Series,2022,56956,available,LOC001
-VEH0020,Toyota,RAV4,2024,34060,available,LOC001
-VEH0021,Chevrolet,Equinox,2025,34569,available,LOC002
-VEH0022,Ford,F-150,2024,46046,reserved,LOC002
-VEH0023,Chevrolet,Equinox,2024,31338,reserved,LOC002
-VEH0024,Chevrolet,Equinox,2024,34826,available,LOC002
-VEH0025,Chevrolet,Equinox,2025,31908,available,LOC002
-VEH0026,Chevrolet,Silverado,2022,40142,available,LOC002
-VEH0027,Honda,Civic,2022,27606,available,LOC002
-VEH0028,Toyota,Camry,2023,28155,reserved,LOC002
-VEH0029,Toyota,Camry,2025,28407,reserved,LOC002
-VEH0030,BMW,X5,2024,75996,available,LOC002
-VEH0031,Honda,CR-V,2025,37536,available,LOC002
-VEH0032,Toyota,Camry,2022,30724,available,LOC002
-VEH0033,BMW,3 Series,2023,59042,available,LOC002
-VEH0034,Chevrolet,Silverado,2022,42755,available,LOC002
-VEH0035,Chevrolet,Equinox,2022,29679,available,LOC002
-VEH0036,Toyota,RAV4,2025,33826,reserved,LOC002
-VEH0037,Ford,Explorer,2022,36168,available,LOC002
-VEH0038,Toyota,RAV4,2025,39278,available,LOC002
-VEH0039,Toyota,Camry,2024,32827,available,LOC002
-VEH0040,Ford,Explorer,2025,42250,available,LOC002
-VEH0041,Toyota,Camry,2022,30427,available,LOC003
-VEH0042,Honda,Civic,2025,27075,available,LOC003
-VEH0043,Chevrolet,Silverado,2022,40318,available,LOC003
-VEH0044,Ford,F-150,2023,44730,available,LOC003
-VEH0045,Ford,F-150,2024,48118,available,LOC003
-VEH0046,Chevrolet,Equinox,2023,30691,available,LOC003
-VEH0047,Ford,Explorer,2025,38061,reserved,LOC003
-VEH0048,BMW,X5,2023,70897,available,LOC003
-VEH0049,Chevrolet,Equinox,2022,30577,available,LOC003
-VEH0050,Chevrolet,Equinox,2025,30803,available,LOC003
-VEH0051,Chevrolet,Equinox,2025,34308,available,LOC003
-VEH0052,BMW,X5,2024,75988,reserved,LOC003
-VEH0053,Toyota,RAV4,2025,39647,available,LOC003
-VEH0054,BMW,X5,2024,76888,available,LOC003
-VEH0055,BMW,X5,2025,71507,reserved,LOC003
-VEH0056,Chevrolet,Equinox,2024,30470,available,LOC003
-VEH0057,Chevrolet,Equinox,2023,33086,available,LOC003
-VEH0058,Honda,Civic,2025,26706,available,LOC003
-VEH0059,Chevrolet,Equinox,2023,30841,reserved,LOC003
-VEH0060,BMW,3 Series,2024,53927,reserved,LOC003
-VEH0061,BMW,X5,2022,70862,reserved,LOC004
-VEH0062,Honda,CR-V,2022,35104,available,LOC004
-VEH0063,Honda,CR-V,2023,36198,available,LOC004
-VEH0064,Honda,Civic,2025,25739,available,LOC004
-VEH0065,Ford,F-150,2022,44778,available,LOC004
-VEH0066,Chevrolet,Equinox,2024,33799,reserved,LOC004
-VEH0067,Chevrolet,Equinox,2022,31639,reserved,LOC004
-VEH0068,Chevrolet,Equinox,2022,29125,reserved,LOC004
-VEH0069,Chevrolet,Equinox,2024,32953,available,LOC004
-VEH0070,BMW,3 Series,2023,57802,available,LOC004
-VEH0071,Honda,Civic,2025,29835,available,LOC004
-VEH0072,BMW,3 Series,2023,57524,available,LOC004
-VEH0073,BMW,X5,2023,70650,available,LOC004
-VEH0074,Ford,F-150,2022,48501,available,LOC004
-VEH0075,BMW,3 Series,2023,54267,available,LOC004
-VEH0076,Ford,Explorer,2023,40356,available,LOC004
-VEH0077,Chevrolet,Equinox,2022,33068,available,LOC004
-VEH0078,BMW,X5,2023,72937,available,LOC004
-VEH0079,Chevrolet,Equinox,2022,31760,available,LOC004
-VEH0080,Ford,Explorer,2022,41567,available,LOC004
-VEH0081,Chevrolet,Silverado,2024,41576,reserved,LOC005
-VEH0082,Honda,Civic,2023,29196,available,LOC005
-VEH0083,BMW,3 Series,2025,54021,available,LOC005
-VEH0084,Toyota,Camry,2025,32855,available,LOC005
-VEH0085,BMW,3 Series,2024,55978,available,LOC005
-VEH0086,Toyota,RAV4,2025,36230,available,LOC005
-VEH0087,Honda,Civic,2022,29188,reserved,LOC005
-VEH0088,Toyota,RAV4,2023,36471,available,LOC005
-VEH0089,Chevrolet,Equinox,2024,28052,reserved,LOC005
-VEH0090,BMW,3 Series,2023,57149,reserved,LOC005
-VEH0091,Chevrolet,Silverado,2023,42184,available,LOC005
-VEH0092,Chevrolet,Equinox,2023,28403,available,LOC005
-VEH0093,Chevrolet,Equinox,2024,28370,available,LOC005
-VEH0094,Chevrolet,Equinox,2023,29153,reserved,LOC005
-VEH0095,Honda,CR-V,2023,31015,available,LOC005
-VEH0096,BMW,3 Series,2022,56045,available,LOC005
-VEH0097,BMW,X5,2024,75359,available,LOC005
-VEH0098,BMW,X5,2025,75397,reserved,LOC005
-VEH0099,Ford,Explorer,2025,37324,reserved,LOC005
-VEH0100,BMW,X5,2023,74325,available,LOC005
+VEH0001,Chevrolet,Silverado,2024,40935,available,LOC001
+VEH0002,BMW,X5,2024,73337,reserved,LOC001
+VEH0003,Toyota,RAV4,2025,39827,available,LOC001
+VEH0004,Honda,CR-V,2024,37927,available,LOC001
+VEH0005,Honda,Civic,2024,24960,available,LOC001
+VEH0006,Ford,Explorer,2023,39811,available,LOC001
+VEH0007,Chevrolet,Equinox,2023,34142,available,LOC001
+VEH0008,Honda,Civic,2025,25918,available,LOC001
+VEH0009,Chevrolet,Silverado,2024,41818,available,LOC001
+VEH0010,Chevrolet,Silverado,2025,41034,available,LOC001
+VEH0011,Ford,Explorer,2025,41565,available,LOC001
+VEH0012,Honda,CR-V,2023,31584,reserved,LOC001
+VEH0013,Chevrolet,Equinox,2022,32585,available,LOC001
+VEH0014,Toyota,Camry,2023,31378,available,LOC001
+VEH0015,Chevrolet,Silverado,2025,44895,reserved,LOC001
+VEH0016,Toyota,Camry,2025,30406,available,LOC001
+VEH0017,BMW,3 Series,2024,53684,reserved,LOC001
+VEH0018,BMW,3 Series,2025,57926,available,LOC001
+VEH0019,Ford,F-150,2022,45578,available,LOC001
+VEH0020,Ford,F-150,2024,43713,available,LOC001
+VEH0021,Chevrolet,Silverado,2024,41007,available,LOC002
+VEH0022,Ford,F-150,2023,44421,available,LOC002
+VEH0023,Honda,CR-V,2023,32039,reserved,LOC002
+VEH0024,Honda,Civic,2023,27483,available,LOC002
+VEH0025,Honda,Civic,2024,26301,available,LOC002
+VEH0026,Honda,CR-V,2025,32367,available,LOC002
+VEH0027,Honda,Civic,2022,24948,available,LOC002
+VEH0028,BMW,3 Series,2023,58388,available,LOC002
+VEH0029,Chevrolet,Silverado,2023,43655,available,LOC002
+VEH0030,Toyota,Camry,2023,31737,reserved,LOC002
+VEH0031,Toyota,Camry,2022,30625,reserved,LOC002
+VEH0032,Ford,Explorer,2025,41541,available,LOC002
+VEH0033,Chevrolet,Silverado,2024,42713,available,LOC002
+VEH0034,Honda,Civic,2023,29628,available,LOC002
+VEH0035,Ford,Explorer,2022,37024,reserved,LOC002
+VEH0036,Toyota,RAV4,2025,33248,available,LOC002
+VEH0037,Toyota,Camry,2025,30281,available,LOC002
+VEH0038,Chevrolet,Silverado,2022,41568,available,LOC002
+VEH0039,BMW,X5,2024,74528,available,LOC002
+VEH0040,Toyota,RAV4,2023,36126,available,LOC002
+VEH0041,Toyota,Camry,2024,30989,reserved,LOC003
+VEH0042,BMW,X5,2025,70182,reserved,LOC003
+VEH0043,Toyota,Camry,2023,29464,available,LOC003
+VEH0044,Chevrolet,Silverado,2024,46910,reserved,LOC003
+VEH0045,Ford,F-150,2022,44065,available,LOC003
+VEH0046,Chevrolet,Silverado,2024,44658,reserved,LOC003
+VEH0047,BMW,3 Series,2025,53579,available,LOC003
+VEH0048,Honda,Civic,2025,26880,reserved,LOC003
+VEH0049,Honda,Civic,2023,26042,reserved,LOC003
+VEH0050,Chevrolet,Silverado,2022,46748,available,LOC003
+VEH0051,Chevrolet,Equinox,2025,32745,available,LOC003
+VEH0052,Toyota,RAV4,2022,34436,reserved,LOC003
+VEH0053,Chevrolet,Silverado,2023,43284,available,LOC003
+VEH0054,Ford,F-150,2025,49590,reserved,LOC003
+VEH0055,BMW,X5,2023,72173,available,LOC003
+VEH0056,BMW,3 Series,2022,58512,available,LOC003
+VEH0057,Chevrolet,Silverado,2025,41881,available,LOC003
+VEH0058,Ford,Explorer,2023,39965,available,LOC003
+VEH0059,Ford,F-150,2024,49929,reserved,LOC003
+VEH0060,Toyota,RAV4,2024,39929,available,LOC003
+VEH0061,BMW,3 Series,2024,55275,reserved,LOC004
+VEH0062,BMW,3 Series,2023,58807,reserved,LOC004
+VEH0063,Honda,CR-V,2024,32189,available,LOC004
+VEH0064,Toyota,RAV4,2024,35776,available,LOC004
+VEH0065,BMW,3 Series,2022,56018,available,LOC004
+VEH0066,Toyota,RAV4,2024,39288,available,LOC004
+VEH0067,Ford,Explorer,2023,36228,available,LOC004
+VEH0068,Toyota,Camry,2025,32104,reserved,LOC004
+VEH0069,Toyota,RAV4,2023,39862,available,LOC004
+VEH0070,Toyota,Camry,2025,29965,available,LOC004
+VEH0071,Toyota,RAV4,2025,37200,available,LOC004
+VEH0072,Chevrolet,Silverado,2023,45533,reserved,LOC004
+VEH0073,BMW,3 Series,2025,57050,available,LOC004
+VEH0074,Toyota,RAV4,2022,38841,available,LOC004
+VEH0075,Honda,CR-V,2024,35016,reserved,LOC004
+VEH0076,Ford,Explorer,2022,36647,available,LOC004
+VEH0077,Honda,Civic,2022,29058,available,LOC004
+VEH0078,Ford,Explorer,2023,41046,available,LOC004
+VEH0079,BMW,X5,2022,75601,available,LOC004
+VEH0080,Chevrolet,Silverado,2022,43811,available,LOC004
+VEH0081,Toyota,RAV4,2025,34372,available,LOC005
+VEH0082,Ford,Explorer,2022,42490,reserved,LOC005
+VEH0083,Chevrolet,Equinox,2024,28245,available,LOC005
+VEH0084,Toyota,Camry,2022,31524,available,LOC005
+VEH0085,BMW,3 Series,2023,53477,available,LOC005
+VEH0086,BMW,3 Series,2024,58841,reserved,LOC005
+VEH0087,Honda,Civic,2024,26621,available,LOC005
+VEH0088,Chevrolet,Equinox,2024,29956,available,LOC005
+VEH0089,Chevrolet,Equinox,2025,30497,available,LOC005
+VEH0090,Honda,Civic,2023,25897,reserved,LOC005
+VEH0091,Honda,CR-V,2023,37265,available,LOC005
+VEH0092,Honda,Civic,2022,23716,reserved,LOC005
+VEH0093,Toyota,Camry,2023,27586,available,LOC005
+VEH0094,Toyota,Camry,2023,31034,available,LOC005
+VEH0095,Honda,Civic,2024,29581,available,LOC005
+VEH0096,Honda,Civic,2024,29861,available,LOC005
+VEH0097,Chevrolet,Silverado,2024,41636,reserved,LOC005
+VEH0098,Ford,F-150,2025,45082,available,LOC005
+VEH0099,Chevrolet,Equinox,2024,34644,available,LOC005
+VEH0100,BMW,3 Series,2025,58607,available,LOC005
